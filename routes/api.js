@@ -1,4 +1,7 @@
 'use strict';
+const mongoose = require('mongoose');
+const Issue = require('../collections').Issue;
+const Project = require('../collections').Project;
 
 module.exports = function (app) {
 
@@ -10,6 +13,8 @@ module.exports = function (app) {
     })
     
     .post(function (req, res){
+      console.log("params----",req.params)
+      console.log("body----",req.body)
       let project = req.params.project;
       
     })
