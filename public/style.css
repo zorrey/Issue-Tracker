@@ -1,23 +1,120 @@
 * {
-  margin: 0px;
-  padding: 0px;
-}
-
-body {
-  padding: 10px;
-}
-
-.issue {
-  margin: 20px;
-  padding: 5px;
-  width: 60%;
-  border: 2px solid black;
-}
-
-.closed {
-  background-color: lightgrey;
-}
-
-.id {
-  font-size: 10.5px;
-}
+    margin: 0px;
+    padding: 0px;
+   }
+  #testui{
+    margin-left:4%;
+  }
+  body {
+    padding: 10px;
+    background-color: #2d4649;
+    color: #efeae1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+  }
+  
+  .issue {
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid black;
+  }
+  
+  .custom-control-input{
+    width:35px;
+    
+  }
+   #lableInput{
+   
+    background-color: white; 
+    color:#4c6d94;
+    display: block;
+    padding: 5px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    font-size: 16px;
+  } 
+  .custom-control-lable{
+    display: flex;
+    flex-direction: row;
+  }
+  form {
+    align-items: stretch;
+    margin: 20px 0px;
+    padding:5px;
+    flex-direction: column;
+    background-color: #5a7f87;
+    display: flex;
+    width: 60%;
+    border-radius: 5px;
+  }
+  
+  input, textarea {  
+   color: #4c6d94;
+  display:block;
+  }
+  h1{
+    
+    text-align:start;
+  }
+  h2{
+    
+    text-align:start;
+    font-size: xx-large;
+  }
+  h3{
+    
+    text-align:start;
+    font-size: x-large;
+  }
+  
+  input[type=submit] {
+    font-size: 16px;
+    border-radius: 3px;
+    background-color: #9ea3a9;
+    border: 2px solid grey;
+    box-shadow: 2px 2px grey;
+    cursor: pointer;
+  }
+  
+  /* input[type=submit]:hover {
+    background-color: grey;
+    border: 1px solid #e1dbdb;
+  } */
+  
+  .form-control{
+    
+    background-color: white; 
+    color:#4c6d94;
+    padding: 5px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    font-size: 16px;
+    
+  }
+  .closed {
+    background-color: lightgrey;
+  }
+  
+  .id {
+    font-size: 10.5px;
+  }
+  
+  
+  
+  address{
+    text-align: left;
+      width:350px;
+        margin-top: 10px;
+        margin-left: 10px;
+        font-size: small;
+        color:gray
+    }
+    a{
+        color:gray
+    }
+    img{
+        width: 120px;
+    }
+  .author{
+  margin-left:0px
+  }
